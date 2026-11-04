@@ -20,6 +20,7 @@
 <style>.bottom .max::after{content:"";display:block;width:17px;height:17px;background:center/contain no-repeat url("icon-max.png")}</style>
 <script>document.addEventListener('DOMContentLoaded',()=>{const stamp=document.querySelector('.stamp');if(stamp)stamp.lastChild.nodeValue='Марка · модель · год — узнать примерную цену';const youtube=document.querySelector('.works-link .btn');if(youtube)youtube.childNodes.forEach(node=>{if(node.nodeType===Node.TEXT_NODE)node.nodeValue=node.nodeValue.replace(' ↗','')})});</script>
 <script>document.addEventListener('DOMContentLoaded',()=>document.querySelector('#clientPhone')?.setAttribute('pattern','(?:\\+7|8)[0-9]{10}'));</script>
+<script>document.addEventListener('DOMContentLoaded',()=>{const whatsapp=document.querySelector('.bottom .wa');if(whatsapp)whatsapp.href='https://wa.me/79522644686'});</script>
 </head>
 <body>
 <div class="nav-bg"><nav class="wrap nav"><a class="logo" href="#top"><img src="expresskey-logo.avif" alt="ExpressKey"></a><div class="links"><a href="#calculator">Калькулятор</a><a href="#brands">Марки</a><a href="#works">Работы</a><a href="#request">Заявка</a></div><div class="top-actions"><a class="phone" href="tel:+79046063336">+7 904 606-33-36</a><a class="btn blue" href="tel:+79046063336">Позвонить</a></div></nav></div>
